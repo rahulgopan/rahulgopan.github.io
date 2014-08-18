@@ -10,11 +10,11 @@ title: About - Rahul Gopan
 
 [github]: https://github.com
 [writing]: /blog
-
+<!DOCTYPE html>
 <head>
 <style>
 .clip-circle{
-  background:url(https://lh5.googleusercontent.com/-UL-JhrZjFi4/UcCSPclrNZI/AAAAAAAABZI/HgqJTFcJ7D8/w800-h533-no/Baboon_Wikimedia.jpg) no-repeat;
+  background:url(http://upload.wikimedia.org/wikipedia/commons/1/1a/Bachalpseeflowers.jpg) no-repeat;
   background-size:720px 480px;
   background-position:-160px 0px;
   height:480px;
