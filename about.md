@@ -12,9 +12,10 @@ title: About - Rahul Gopan
 [writing]: /blog
 
 
+
 <script>
 
-
+alert("Hello");
 <img src="http://upload.wikimedia.org/wikipedia/commons/1/1a/Bachalpseeflowers.jpg" class="inline-left" title="Rahul Gopan" alt="Rahul Gopan" />
 
 
