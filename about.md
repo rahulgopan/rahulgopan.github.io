@@ -10,7 +10,7 @@ title: About - Rahul Gopan
 
 [github]: https://github.com
 [writing]: /blog
-<!DOCTYPE html>
+
 <head>
 <style>
 .clip-circle{
