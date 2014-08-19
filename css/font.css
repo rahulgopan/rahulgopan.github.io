@@ -51,5 +51,8 @@
   content: "\e00a";
 }
 .icon-search:before {
-	content: "\e00b";
+  content: "\e00b";
+}
+.icon-connection:before {
+  content: "\e00c";
 }
