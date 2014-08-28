@@ -1,0 +1,16 @@
+---
+title: "Docker - A threat to Virtual Machines??"
+layout: post
+tags:
+- docker
+---
+
+Let me begin this by giving a small introduction about [Docker](https://www.docker.com/).[Docker](https://www.docker.com/), an open source technology has been the buzz word for more than a year and despite being infant it's been used in production as well with its latest release 1.0. It's nothing but a light-weight containers which does OS virtualization rather than hardware virtualization (like what VMware does). [Docker](https://www.docker.com/) allows developers and system administrators to build, ship and run applications across different Linux platforms.
+
+Containers is not a new concept but docker made it effective and simpler to use for humans. [Dotcloud](https://www.dotcloud.com/) added some functionalities on top of LXC to make it easier to use as an application packaging system. Many in the past used the concept of containers like Google's [lmctfy](http://en.wikipedia.org/wiki/Lmctfy) (Let me contain it there for you) by which we will be provided a new container whenever we use gmail, Google drive etc. Oracle solaris,[Parallels](http://www.parallels.com/) worked on projects like [openVZ](http://en.wikipedia.org/wiki/OpenVZ) and [LXC](http://en.wikipedia.org/wiki/Lxc). But it was [dotcloud](https://www.dotcloud.com/) who used it effectively and brought this "build and run anywhere" application which made some cloud vendors to quickly adopt to this new technology.
+
+[IBM's research recently](http://www.theregister.co.uk/2014/08/18/docker_kicks_kvms_butt_in_ibm_tests/) shows that [Docker](https://www.docker.com/)'s performance over KVM hypervisor is much better in all the case that they have tested. Will it be used as a replacement to Virtual machine or will it pose a threat to the virtualization giants VMware. VMware claims that [Docker](https://www.docker.com/) and virtual machines can actually go well together. People do think of replacing virtual machines with docker images to hold application. Having said that, when it comes to using application inside an ESXi VM, we do get the benefit of running it in a more secure way. Also, lot more features like high availability, QoS, firewalling, load balancing and much more. These are all the features that docker need to address and if they do so I see a clear chance of docker replacing Virtual machines.
+
+Since VM have many key features to run applications effectively and securely and docker has the ability to improve portability of the app running, doesn't it sounds better to use an docker daemon to run application on top of a VM. We have some evidence that docker on top of VM doesn't give good performance when compared to running docker on raw hardware. [VMware](httP;//www.vmware.com) reckons it as a false statement and if we use right configurations for a VM they we will be getting equal performance for docker on top of hardware and docker on top of virtual hardware.
+
+In near future we might see VMWare + Containers is the way that most cloud vendors choose just to be on safer side. [Docker](https://www.docker.com/) seems to be promising open source project which is going to have some serious effect on clouds.
