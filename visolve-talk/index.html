@@ -113,20 +113,16 @@
 </section>
 <section data-markdown>
     <script type="text/template">
-    ## OK, how does it work?
-    - Takes advantage of containerization technology, providing lots of UX niceness on top of features borrowed from or inspired by:
-         - FreeBSD jails
-         - chroot
-         - Solaris Zones
-         - OpenVZ
-    - Containers share kernel with host, and in some cases bin/libs
-    - Originally used only [LXC](https://linuxcontainers.org/) under the hood, now there is a swappable "exec-driver" and the default is a Go-based implementation called libcontainer
+    ## etcd
+
+    - Open source distributed Key value store, written in Go
+    - Backbone of your cluster, Configuration and service discovery
+    - Communication b/w nodes handled via Raft Consensus algorithm
     </script>
 </section>
 <section data-markdown>
     <script type="text/template">
-    # Let's look under the hood a bit.
-    ![hood](images/underthehood.jpg)
+    # Demo
     </script>
 </section>
 <section data-markdown>
