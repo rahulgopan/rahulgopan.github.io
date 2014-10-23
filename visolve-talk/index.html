@@ -152,14 +152,12 @@
 </section>
 <section data-markdown>
     <script type="text/template">
-    ## namespaces: `pid`
-```
-jpetazzo@tarrasque:~$ ps aux | wc -l
-212
-jpetazzo@tarrasque:~$ sudo docker run -t -i ubuntu bash 
-root@ea319b8ac416:/# ps aux | wc -l
-2
-```
+    ## Update Engine
+
+    - Updates employ a dual-partition scheme
+    - Based on Google's open-source project "Omaha"
+    
+    ![CoreOS-Update](images/CoreOS-Update.png)
 
     </script>
 </section>
