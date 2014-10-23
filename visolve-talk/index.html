@@ -163,14 +163,11 @@
 </section>
 <section data-markdown>
     <script type="text/template">
-    ## namespaces: `mnt`
-```
-jpetazzo@tarrasque:~$ wc -l /proc/mounts
-32 /proc/mounts
-jpetazzo@tarrasque:~$ sudo docker run -t -i ubuntu bash 
-root@ea319b8ac416:/# wc -l /proc/mounts
-10 /proc/mounts
-```
+    ## Locksmith
+
+    - Reboot manager for CoreOS update engine
+    - Uses etcd to ensure that only one machine in a cluster boots at a time
+    - locksmithd reboots machine based on the strategy specified in cloud-config file
     </script>
 </section>
 <section data-markdown>
